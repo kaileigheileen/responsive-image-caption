@@ -10,8 +10,38 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: "Denk One", sans-serif;
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: #e2e2e2;
+  margin: 0;
+}
+
+header {
+
+}
+header h1 {
+  font: "Denk One", sans-serif;
+  font-size: 1.5rem;
+}
+
+header p {
+  font: Georgia, serif;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
 }
